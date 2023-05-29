@@ -1,0 +1,22 @@
+:root {
+    --tileWidth: calc(var(--width) / 8);
+    --tileHeight: calc(var(--height) / 8);
+}
+.tile {
+    display: grid;
+    place-content: center;
+    width: var(--tileWidth);
+    height: var(--tileHeight);
+}
+
+.black-tile {
+    background-color: #779556;
+}
+
+.white-tile {
+    background-color: #ebecd0;
+}
+
+.img {
+    width: calc(var(--tileWidth) * 0.8);
+}
